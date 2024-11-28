@@ -1,0 +1,41 @@
+{
+  "name": "load-grunt-tasks",
+  "version": "5.1.0",
+  "description": "Load multiple grunt tasks using globbing patterns",
+  "license": "MIT",
+  "repository": "sindresorhus/load-grunt-tasks",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "xo && grunt"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "dependencies",
+    "glob",
+    "grunt",
+    "load",
+    "match",
+    "matchdep",
+    "pattern",
+    "require",
+    "tasks"
+  ],
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-svgmin": "^6.0.0",
+    "xo": "^0.24.0"
+  },
+  "peerDependencies": {
+    "grunt": ">=1"
+  }
+}
